@@ -71,7 +71,7 @@ export default function Home() {
                 <h2 className='w-fit text-6xl font-ko text-primary'>SVELA IL TUO LATO CRISTICCHI</h2>
                 <p className='w-fit text-xl mb-2'>Che aspettate, amici? Fatevi avanti e portate a casa un pezzo del mio genio.
                   Chi sa, forse un giorno sarà un'opera d'arte. Oppure no, ma almeno avrete una bella maglietta!</p>
-                <Button>SCOPRI DI PIÙ</Button>
+                <Button link='/merch'>SCOPRI DI PIÙ</Button>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function Home() {
             <h2 className='w-fit text-6xl font-ko text-primary text-center lg:text-start'>SVELA IL TUO LATO CRISTICCHI</h2>
             <p className='w-fit text-xl mb-2 text-center lg:text-start'>Che aspettate, amici? Fatevi avanti e portate a casa un pezzo del mio genio.
               Chi sa, forse un giorno sarà un'opera d'arte. Oppure no, ma almeno avrete una bella maglietta!</p>
-            <Button>SCOPRI DI PIÙ</Button>
+            <Button link='/chi-sono'>SCOPRI DI PIÙ</Button>
           </div>
         </div>
         <div className='flex dark:bg-[#1e1e1e] gap-2 flex-wrap justify-center'>
@@ -140,7 +140,7 @@ export default function Home() {
           <div className='text-bg font-ko lg:pt-10 py-4'>
             <h3 className='text-5xl px-4 text-center lg:text-start'>TOUR</h3>
             <h3 className='text-7xl px-4 text-center lg:text-start'>2024</h3>
-            <Button>VIENI E TI REGALO UNA ROSA</Button>
+            <Button link='/tour'>VIENI E TI REGALO UNA ROSA</Button>
           </div>
         </div>
         <div className='lg:w-2/3 w-full flex justify-center items-center'>
